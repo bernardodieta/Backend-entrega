@@ -6,7 +6,8 @@ Endpoint disponibles:
 /addproduct
 (recibe un objeto por post y lo guarda en el archivo json)
 formato de objeto para agregar.(no es necesario agregar un id este se genera solo), de debe enviar el objeto como parte del body)
- {
+
+ ##{
     "title": "Product  post2",
     "description": "Descripcion modificada",
     "price": 100,
